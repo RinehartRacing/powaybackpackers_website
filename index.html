@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poway Backpackers</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #f5f0eb;
+            color: #2c2c2c;
+        }
+
+        header {
+            background-color: #3b5e3a;
+            color: #fff;
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+            color: #c8dfc7;
+        }
+
+        nav {
+            background-color: #2e4a2d;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 0.75rem 1rem;
+        }
+
+        nav a {
+            color: #e8f5e7;
+            text-decoration: none;
+            font-size: 1rem;
+            font-family: Arial, sans-serif;
+            letter-spacing: 0.03em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color: #d4e6d3;
+            text-align: center;
+            padding: 3rem 1.5rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            color: #2e4a2d;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.05rem;
+            max-width: 650px;
+            margin: 0 auto 1.5rem;
+            line-height: 1.7;
+        }
+
+        .hero a.btn {
+            background-color: #3b5e3a;
+            color: #fff;
+            padding: 0.7rem 1.6rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 1rem;
+        }
+
+        .hero a.btn:hover {
+            background-color: #2e4a2d;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #c9d9c8;
+            border-radius: 6px;
+            padding: 1.5rem;
+            flex: 1 1 240px;
+            max-width: 280px;
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            color: #3b5e3a;
+            margin-bottom: 0.6rem;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        footer {
+            background-color: #2e4a2d;
+            color: #c8dfc7;
+            text-align: center;
+            padding: 1.2rem 1rem;
+            margin-top: 3rem;
+            font-family: Arial, sans-serif;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Poway Backpackers</h1>
+        <p>Exploring the wilderness — one trail at a time</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#trips">Trips</a>
+        <a href="#join">Join Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to Poway Backpackers</h2>
+        <p>
+            We are a community of hikers and backpackers based in Poway, California.
+            Whether you're a seasoned trekker or just starting out, come explore local
+            trails and backcountry adventures with us.
+        </p>
+        <a class="btn" href="#join">Get Involved</a>
+    </section>
+
+    <main>
+        <div class="cards">
+            <div class="card" id="about">
+                <h3>About Us</h3>
+                <p>
+                    Founded by outdoor enthusiasts in the Poway area, our club organizes
+                    group backpacking trips throughout Southern California and beyond.
+                </p>
+            </div>
+            <div class="card" id="trips">
+                <h3>Upcoming Trips</h3>
+                <p>
+                    We schedule regular outings to destinations like the San Bernardino
+                    Mountains, Anza-Borrego Desert, and the Sierra Nevada. Check back soon
+                    for the latest trip listings.
+                </p>
+            </div>
+            <div class="card" id="join">
+                <h3>Join Us</h3>
+                <p>
+                    New members are always welcome! No experience required — just a love
+                    of the outdoors and a spirit of adventure. Reach out to get started.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contact">
+        <p>&copy; 2026 Poway Backpackers. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
